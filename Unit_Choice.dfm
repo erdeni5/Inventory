@@ -1,0 +1,55 @@
+object Form_Choice: TForm_Choice
+  Left = 213
+  Top = 117
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSingle
+  ClientHeight = 480
+  ClientWidth = 640
+  Color = clBtnFace
+  Font.Charset = RUSSIAN_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -12
+  Font.Name = 'Cambria'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poMainFormCenter
+  PixelsPerInch = 96
+  TextHeight = 14
+  object DBChoice: TDBGrid
+    Left = 0
+    Top = 0
+    Width = 640
+    Height = 441
+    Align = alTop
+    Ctl3D = False
+    DataSource = Form_DM.DSChoice
+    FixedColor = clMoneyGreen
+    Font.Charset = RUSSIAN_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -12
+    Font.Name = 'Cambria'
+    Font.Style = []
+    Options = [dgTitles, dgIndicator, dgColumnResize, dgColLines, dgRowLines, dgTabs, dgRowSelect, dgConfirmDelete, dgCancelOnExit]
+    ParentCtl3D = False
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 0
+    TitleFont.Charset = RUSSIAN_CHARSET
+    TitleFont.Color = clWindowText
+    TitleFont.Height = -12
+    TitleFont.Name = 'Cambria'
+    TitleFont.Style = [fsBold]
+    OnDblClick = DBChoiceDblClick
+  end
+  object BitCancel: TBitBtn
+    Left = 472
+    Top = 448
+    Width = 150
+    Height = 25
+    Cancel = True
+    Caption = #1054#1090#1084#1077#1085#1072
+    ModalResult = 2
+    TabOrder = 1
+    NumGlyphs = 2
+  end
+end

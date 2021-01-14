@@ -1,0 +1,236 @@
+object Form_ARM: TForm_ARM
+  Left = 213
+  Top = 117
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSingle
+  ClientHeight = 480
+  ClientWidth = 640
+  Color = clBtnFace
+  Font.Charset = RUSSIAN_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -12
+  Font.Name = 'Cambria'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poMainFormCenter
+  PixelsPerInch = 96
+  TextHeight = 14
+  object GBId: TGroupBox
+    Left = 0
+    Top = 0
+    Width = 640
+    Height = 48
+    Align = alTop
+    Caption = ' '#1048#1085#1076#1077#1085#1090#1080#1092#1080#1082#1072#1090#1086#1088' '
+    Enabled = False
+    Font.Charset = RUSSIAN_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Cambria'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 0
+    object IdEdit: TEdit
+      Left = 8
+      Top = 20
+      Width = 601
+      Height = 20
+      CharCase = ecUpperCase
+      Color = clBtnFace
+      Ctl3D = False
+      Enabled = False
+      Font.Charset = RUSSIAN_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'Cambria'
+      Font.Style = []
+      ParentCtl3D = False
+      ParentFont = False
+      TabOrder = 0
+    end
+  end
+  object GBSB: TGroupBox
+    Left = 0
+    Top = 48
+    Width = 640
+    Height = 48
+    Align = alTop
+    Caption = ' '#1057#1080#1089#1090#1077#1084#1085#1099#1081' '#1073#1083#1086#1082' '
+    Font.Charset = RUSSIAN_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Cambria'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 1
+    object SBSB: TSpeedButton
+      Left = 610
+      Top = 20
+      Width = 23
+      Height = 20
+      Caption = '...'
+      Flat = True
+      OnClick = SBSBClick
+    end
+    object SBEdit: TEdit
+      Left = 8
+      Top = 20
+      Width = 601
+      Height = 20
+      CharCase = ecUpperCase
+      Ctl3D = False
+      Font.Charset = RUSSIAN_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'Cambria'
+      Font.Style = []
+      ParentCtl3D = False
+      ParentFont = False
+      ReadOnly = True
+      TabOrder = 0
+    end
+  end
+  object GBMonitor: TGroupBox
+    Left = 0
+    Top = 96
+    Width = 640
+    Height = 48
+    Align = alTop
+    Caption = ' '#1052#1086#1085#1080#1090#1086#1088' '
+    Font.Charset = RUSSIAN_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Cambria'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 2
+    object SBMonitor: TSpeedButton
+      Left = 610
+      Top = 20
+      Width = 23
+      Height = 20
+      Caption = '...'
+      Flat = True
+      OnClick = SBMonitorClick
+    end
+    object MonitorEdit: TEdit
+      Left = 8
+      Top = 20
+      Width = 601
+      Height = 20
+      CharCase = ecUpperCase
+      Ctl3D = False
+      Font.Charset = RUSSIAN_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'Cambria'
+      Font.Style = []
+      ParentCtl3D = False
+      ParentFont = False
+      ReadOnly = True
+      TabOrder = 0
+    end
+  end
+  object GBUPS: TGroupBox
+    Left = 0
+    Top = 144
+    Width = 640
+    Height = 48
+    Align = alTop
+    Caption = ' '#1048#1041#1055' '
+    Font.Charset = RUSSIAN_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Cambria'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 3
+    object SBUPS: TSpeedButton
+      Left = 610
+      Top = 20
+      Width = 23
+      Height = 20
+      Caption = '...'
+      Flat = True
+      OnClick = SBUPSClick
+    end
+    object UPSEdit: TEdit
+      Left = 8
+      Top = 20
+      Width = 601
+      Height = 20
+      CharCase = ecUpperCase
+      Ctl3D = False
+      Font.Charset = RUSSIAN_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'Cambria'
+      Font.Style = []
+      ParentCtl3D = False
+      ParentFont = False
+      ReadOnly = True
+      TabOrder = 0
+    end
+  end
+  object GBPrinter: TGroupBox
+    Left = 0
+    Top = 192
+    Width = 640
+    Height = 48
+    Align = alTop
+    Caption = ' '#1055#1088#1080#1085#1090#1077#1088' '
+    Font.Charset = RUSSIAN_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Cambria'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 4
+    object SBPrinter: TSpeedButton
+      Left = 610
+      Top = 20
+      Width = 23
+      Height = 20
+      Caption = '...'
+      Flat = True
+      OnClick = SBPrinterClick
+    end
+    object PrinterEdit: TEdit
+      Left = 8
+      Top = 20
+      Width = 601
+      Height = 20
+      CharCase = ecUpperCase
+      Ctl3D = False
+      Font.Charset = RUSSIAN_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'Cambria'
+      Font.Style = []
+      ParentCtl3D = False
+      ParentFont = False
+      ReadOnly = True
+      TabOrder = 0
+    end
+  end
+  object BitSave: TBitBtn
+    Left = 352
+    Top = 416
+    Width = 100
+    Height = 25
+    Caption = #1057#1086#1093#1088#1072#1085#1080#1090#1100
+    TabOrder = 5
+    OnClick = BitSaveClick
+  end
+  object BitCancel: TBitBtn
+    Left = 456
+    Top = 416
+    Width = 100
+    Height = 25
+    Cancel = True
+    Caption = #1054#1090#1084#1077#1085#1072
+    ModalResult = 2
+    TabOrder = 6
+    NumGlyphs = 2
+  end
+end
